@@ -1,0 +1,10 @@
+streamlit
+pandas # For data handling
+numpy # For data handling
+matplotlib # For data visualization
+seaborn # For data visualization
+scikit-learn # For ML models
+requests # For API calls
+python-dotenv # For environment variable loading
+PyJWT # For JWT token handling
+plotly # For advanced plotting
