@@ -14,17 +14,17 @@ import traceback
 from typing import Dict, Any
 
 from config import settings
-from database.models import MLModel, Dataset
-from services.ml_service import MLService
-from services.rag_service import RAGService
+from database.models import MLModel, DataSource, AutoMLRun
+from services.ml_service import train_model as train_model_func, predict_with_model
+# from services.rag_service import RAGService  # TODO: Add back when add_model_knowledge is implemented
 
 logger = logging.getLogger(__name__)
 
 # Celery 앱 초기화
 celery_app = Celery(
     "auto_ml_tasks",
-    broker=settings.celery_broker_url,
-    backend=settings.celery_result_backend,
+    broker=settings.CELERY_BROKER_URL,
+    backend=settings.CELERY_RESULT_BACKEND,
     include=["tasks"]
 )
 
@@ -44,11 +44,11 @@ celery_app.conf.update(
 )
 
 # 데이터베이스 세션 생성
-engine = create_engine(settings.database_url)
+engine = create_engine(settings.DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 
 @celery_app.task(bind=True, name="tasks.train_model_task")
-async def train_model_task(self, model_id: int) -> Dict[str, Any]:
+def train_model_task(self, model_id: int) -> Dict[str, Any]:
     """
     머신러닝 모델 비동기 훈련 작업
     
@@ -62,7 +62,6 @@ async def train_model_task(self, model_id: int) -> Dict[str, Any]:
         훈련 결과 딕셔너리 (모델 경로, 성능 지표 등)
     """
     db = SessionLocal()
-    ml_service = MLService()
     
     try:
         # 모델과 데이터셋 정보 로드
@@ -70,9 +69,14 @@ async def train_model_task(self, model_id: int) -> Dict[str, Any]:
         if not model:
             raise ValueError(f"모델 ID {model_id}를 찾을 수 없습니다")
         
-        dataset = db.query(Dataset).filter(Dataset.id == model.dataset_id).first()
-        if not dataset:
-            raise ValueError(f"데이터셋 ID {model.dataset_id}를 찾을 수 없습니다")
+        # Get the AutoMLRun associated with this model to find the data source
+        automl_run = db.query(AutoMLRun).filter(AutoMLRun.ml_model_id == model_id).first()
+        if not automl_run:
+            raise ValueError(f"모델 ID {model_id}와 연관된 AutoML 실행을 찾을 수 없습니다")
+            
+        data_source = db.query(DataSource).filter(DataSource.id == automl_run.data_source_id).first()
+        if not data_source:
+            raise ValueError(f"데이터소스 ID {automl_run.data_source_id}를 찾을 수 없습니다")
         
         logger.info(f"🚀 모델 훈련 시작: {model.name} (ID: {model_id})")
         
@@ -83,7 +87,12 @@ async def train_model_task(self, model_id: int) -> Dict[str, Any]:
         )
         
         # 모델 훈련 실행
-        training_result = await ml_service.train_model(model, dataset)
+        training_result = train_model_func(
+            file_path=data_source.file_path,
+            target_column=model.target_column,
+            model_type=model.model_type,
+            features=None  # TODO: Add features parsing if needed
+        )
         
         # 진행 상황 업데이트 (70%)
         self.update_state(
@@ -107,11 +116,12 @@ async def train_model_task(self, model_id: int) -> Dict[str, Any]:
         )
         
         # RAG 지식베이스에 모델 정보 추가
-        try:
-            rag_service = RAGService()
-            await rag_service.add_model_knowledge(model)
-        except Exception as e:
-            logger.warning(f"지식베이스 업데이트 실패 (계속 진행): {e}")
+        # TODO: Implement add_model_knowledge method in RAGService
+        # try:
+        #     rag_service = RAGService()
+        #     rag_service.add_model_knowledge(model)
+        # except Exception as e:
+        #     logger.warning(f"지식베이스 업데이트 실패 (계속 진행): {e}")
         
         logger.info(f"✅ 모델 훈련 완료: {model.name}")
         
@@ -145,7 +155,7 @@ async def train_model_task(self, model_id: int) -> Dict[str, Any]:
         db.close()
 
 @celery_app.task(bind=True, name="tasks.generate_predictions_task")
-async def generate_predictions_task(self, model_id: int, input_data: Dict[str, Any]) -> Dict[str, Any]:
+def generate_predictions_task(self, model_id: int, input_data: Dict[str, Any]) -> Dict[str, Any]:
     """
     모델 예측 비동기 작업
     
@@ -159,7 +169,6 @@ async def generate_predictions_task(self, model_id: int, input_data: Dict[str, A
         예측 결과 딕셔너리
     """
     db = SessionLocal()
-    ml_service = MLService()
     
     try:
         model = db.query(MLModel).filter(MLModel.id == model_id).first()
@@ -175,7 +184,7 @@ async def generate_predictions_task(self, model_id: int, input_data: Dict[str, A
         )
         
         # 예측 수행
-        prediction_result = await ml_service.predict(model, input_data)
+        prediction_result = predict_with_model(model.model_path, input_data)
         
         logger.info(f"✅ 예측 완료: 모델 {model.name}")
         

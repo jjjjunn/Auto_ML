@@ -5,6 +5,7 @@ import os
 import logging
 
 from routes import auth_routes, data_routes, ml_routes, chat_routes, task_routes, user_log_routes
+from oauth import social_auth
 from database.database import init_db
 from utils.env_loader import load_env
 from config import settings
@@ -13,12 +14,13 @@ from config import settings
 load_env()
 
 # 로깅 설정
+import sys
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s:%(levelname)s:%(message)s',
     handlers=[
-        logging.FileHandler('logs.log'),
-        logging.StreamHandler()
+        logging.FileHandler('logs.log', encoding='utf-8'),
+        logging.StreamHandler(sys.stdout)
     ]
 )
 logger = logging.getLogger(__name__)
@@ -56,7 +58,8 @@ app.add_middleware(
 )
 
 # 라우터 등록
-app.include_router(auth_routes.router, prefix="/api/auth", tags=["authentication"])
+app.include_router(social_auth.router, prefix="/auth", tags=["social authentication"])
+app.include_router(auth_routes.router, prefix="/auth", tags=["authentication"])
 app.include_router(user_log_routes.router, prefix="/api/logs", tags=["user activity logs"])
 app.include_router(data_routes.router, prefix="/api/data", tags=["data management"])
 app.include_router(ml_routes.router, prefix="/api/ml", tags=["machine learning"])
@@ -66,9 +69,9 @@ app.include_router(task_routes.router, prefix="/api/tasks", tags=["async tasks"]
 @app.on_event("startup")
 async def startup_event():
     """애플리케이션 시작시 실행"""
-    logger.info("🚀 Auto ML API 시작")
+    logger.info("Auto ML API 시작")
     init_db()
-    logger.info("✅ 데이터베이스 초기화 완료")
+    logger.info("데이터베이스 초기화 완료")
 
 @app.get("/")
 async def root():

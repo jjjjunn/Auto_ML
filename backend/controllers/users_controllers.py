@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from database import models
+from database.models import User
 from models import schemas
 from utils.logger import logger
 from typing import Dict, Any
@@ -20,11 +20,11 @@ def create_or_update_social_user(
     
     # Check if user already exists based on provider_id
     if provider == "kakao":
-        db_user = db.query(models.User).filter(models.User.kakao_id == user_info["provider_id"]).first()
+        db_user = db.query(User).filter(User.kakao_id == user_info["provider_id"]).first()
     elif provider == "google":
-        db_user = db.query(models.User).filter(models.User.google_id == user_info["provider_id"]).first()
+        db_user = db.query(User).filter(User.google_id == user_info["provider_id"]).first()
     elif provider == "naver": # Add Naver
-        db_user = db.query(models.User).filter(models.User.naver_id == user_info["provider_id"]).first()
+        db_user = db.query(User).filter(User.naver_id == user_info["provider_id"]).first()
     else:
         logger.error(f"Unsupported provider in create_or_update_social_user: {provider}")
         raise ValueError("Unsupported provider")
@@ -62,7 +62,7 @@ def create_or_update_social_user(
         elif provider == "naver": # Add Naver
             user_data["naver_id"] = user_info["provider_id"]
 
-        db_user = models.User(**user_data)
+        db_user = User(**user_data)
         db.add(db_user)
 
     db.commit()

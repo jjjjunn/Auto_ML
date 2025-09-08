@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from database import models
+from database.models import ActivityLog
 from utils.logger import logger
 from typing import Optional
 
@@ -21,7 +21,7 @@ class UserLogService:
         사용자 활동을 ActivityLog 테이블에 기록합니다.
         """
         try:
-            log_entry = models.ActivityLog(
+            log_entry = ActivityLog(
                 user_id=user_id,
                 activity_type=activity_type,
                 description=description
@@ -47,12 +47,12 @@ class UserLogService:
         """
         사용자 활동 로그를 조회합니다.
         """
-        query = db.query(models.ActivityLog)
+        query = db.query(ActivityLog)
         if user_id:
-            query = query.filter(models.ActivityLog.user_id == user_id)
+            query = query.filter(ActivityLog.user_id == user_id)
         if activity_type:
-            query = query.filter(models.ActivityLog.activity_type == activity_type)
+            query = query.filter(ActivityLog.activity_type == activity_type)
         
-        logs = query.order_by(models.ActivityLog.timestamp.desc()).offset(offset).limit(limit).all()
+        logs = query.order_by(ActivityLog.timestamp.desc()).offset(offset).limit(limit).all()
         logger.info(f"Retrieved {len(logs)} activity logs for user {user_id if user_id else 'all'}.")
         return logs

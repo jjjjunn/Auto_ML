@@ -643,3 +643,641 @@
 2025-09-07 22:18:12,754 - utils.logger - INFO - AutoMLService initialized.
 2025-09-07 22:18:12,948 - services.report_service - INFO - ReportService initialized.
 2025-09-07 22:18:12,966 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:08:44,545 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:08:44,546 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:08:44,546 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:08:44,546 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:08:44,546 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:08:44,547 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:08:44,547 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:08:44,547 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:09:05,229 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:09:05,615 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:09:05,658 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:11:12,673 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:11:12,673 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:11:12,673 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:11:12,674 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:11:12,674 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:11:12,674 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:11:12,674 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:11:12,674 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:11:14,757 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:11:14,878 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:11:14,891 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:13:13,042 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:13:13,042 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:13:13,043 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:13:13,043 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:13:13,043 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:13:13,044 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:13:13,044 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:13:13,044 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:13:14,934 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:13:15,066 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:13:15,080 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:13:19,741 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:13:19,741 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:13:19,741 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:13:19,742 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:13:19,742 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:13:19,742 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:13:19,742 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:13:19,742 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:13:21,775 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:13:21,947 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:13:21,974 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:13:29,687 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:13:29,687 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:13:29,687 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:13:29,687 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:13:29,687 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:13:29,688 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:13:29,688 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:13:29,688 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:13:31,502 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:13:31,624 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:13:31,637 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:19:12,868 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:19:12,868 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:19:12,868 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:19:12,869 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:19:12,869 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:19:12,869 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:19:12,869 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:19:12,870 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:19:14,972 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:19:15,105 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:19:15,121 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:22:33,680 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:22:33,680 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:22:33,680 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:22:33,681 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:22:33,681 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:22:33,681 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:22:33,682 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:22:33,682 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:22:35,594 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:22:35,706 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:22:35,718 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:25:57,431 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:25:57,432 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:25:57,432 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:25:57,432 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:25:57,432 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:25:57,432 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:25:57,432 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:25:57,433 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:25:59,126 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:25:59,242 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:25:59,253 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:26:11,924 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:26:11,924 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:26:11,924 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:26:11,925 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:26:11,925 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:26:11,925 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:26:11,925 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:26:11,926 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:26:13,637 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:26:13,749 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:26:13,761 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:29:23,665 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:29:23,665 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:29:23,665 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:29:23,666 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:29:23,666 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:29:23,666 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:29:23,666 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:29:23,667 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:29:25,914 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:29:26,049 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:29:26,064 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:29:29,707 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:29:29,708 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:29:29,708 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:29:29,708 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:29:29,708 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:29:29,709 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:29:29,709 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:29:29,709 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:29:31,843 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:29:31,956 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:29:31,970 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:29:44,696 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:29:44,697 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:29:44,697 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:29:44,697 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:29:44,697 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:29:44,698 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:29:44,698 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:29:44,698 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:29:46,507 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:29:46,669 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:29:46,681 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:32:45,008 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:32:45,008 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:32:45,008 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:32:45,009 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:32:45,009 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:32:45,009 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:32:45,009 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:32:45,009 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:32:46,777 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:32:46,943 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:32:46,955 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:32:49,838 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:32:49,839 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:32:49,839 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:32:49,839 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:32:49,839 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:32:49,840 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:32:49,840 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:32:49,840 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:32:51,605 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:32:51,721 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:32:51,733 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:33:29,090 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:33:29,090 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:33:29,090 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:33:29,090 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:33:29,091 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:33:29,091 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:33:29,091 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:33:29,091 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:33:30,923 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:33:31,042 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:33:31,054 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:33:33,594 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:33:33,594 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:33:33,594 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:33:33,595 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:33:33,595 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:33:33,595 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:33:33,595 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:33:33,595 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:33:35,549 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:33:35,677 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:33:35,690 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:33:35,953 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:33:35,965 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:33:35,965 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:34:35,829 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:34:35,830 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:34:35,830 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:34:35,830 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:34:35,830 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:34:35,830 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:34:35,830 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:34:35,830 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:34:37,844 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:34:37,988 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:34:38,004 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:34:38,271 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:34:38,279 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:34:38,279 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:35:39,517 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:35:39,518 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:35:39,518 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:35:39,518 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:35:39,518 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:35:39,519 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:35:39,519 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:35:39,519 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:35:41,260 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:35:41,389 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:35:41,402 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:35:41,648 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:35:41,656 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:35:41,656 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:48:31,436 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:48:31,436 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:48:31,436 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:48:31,436 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:48:31,436 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:48:31,436 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:48:31,436 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:48:31,436 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:48:33,388 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:48:33,506 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:48:33,519 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:48:33,759 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:48:33,767 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:48:33,767 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:48:35,487 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:48:35,487 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:48:35,487 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:48:35,487 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:48:35,487 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:48:35,487 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:48:35,487 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:48:35,488 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:48:37,484 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:48:37,599 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:48:37,614 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:48:37,831 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:48:37,838 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:48:37,839 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:48:37,934 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:48:37,935 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:48:50,638 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:48:50,638 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:48:50,639 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:48:50,639 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:48:50,640 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:48:50,640 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:48:50,640 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:48:50,640 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:48:52,735 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:48:52,898 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:48:52,909 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:48:53,284 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:48:53,294 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:48:53,294 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:49:41,322 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:49:41,322 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/api/auth/google/callback
+2025-09-08 17:49:41,323 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/api/auth/kakao/callback
+2025-09-08 17:49:41,323 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/api/auth/naver/callback
+2025-09-08 17:49:41,323 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:49:41,323 - utils.logger - INFO -   Google redirect: http://localhost:8001/api/auth/google/callback
+2025-09-08 17:49:41,323 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/api/auth/kakao/callback
+2025-09-08 17:49:41,324 - utils.logger - INFO -   Naver redirect: http://localhost:8001/api/auth/naver/callback
+2025-09-08 17:49:43,401 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:49:43,540 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:49:43,553 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:49:43,793 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:49:43,801 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:49:43,801 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:51:25,399 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:51:25,399 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/api/auth/google/callback
+2025-09-08 17:51:25,399 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/api/auth/kakao/callback
+2025-09-08 17:51:25,399 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/api/auth/naver/callback
+2025-09-08 17:51:25,399 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:51:25,399 - utils.logger - INFO -   Google redirect: http://localhost:8001/api/auth/google/callback
+2025-09-08 17:51:25,399 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/api/auth/kakao/callback
+2025-09-08 17:51:25,400 - utils.logger - INFO -   Naver redirect: http://localhost:8001/api/auth/naver/callback
+2025-09-08 17:51:27,310 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:51:27,423 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:51:27,434 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:51:27,676 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:51:27,686 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:51:27,686 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:51:29,546 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:51:29,546 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/api/auth/google/callback
+2025-09-08 17:51:29,546 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/api/auth/kakao/callback
+2025-09-08 17:51:29,546 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/api/auth/naver/callback
+2025-09-08 17:51:29,546 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:51:29,547 - utils.logger - INFO -   Google redirect: http://localhost:8001/api/auth/google/callback
+2025-09-08 17:51:29,547 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/api/auth/kakao/callback
+2025-09-08 17:51:29,547 - utils.logger - INFO -   Naver redirect: http://localhost:8001/api/auth/naver/callback
+2025-09-08 17:51:31,417 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:51:31,538 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:51:31,554 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:51:31,795 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:51:31,805 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:51:31,805 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:51:32,030 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:51:32,031 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:52:11,979 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:52:11,980 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:52:11,980 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:52:11,980 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:52:11,980 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:52:11,980 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:52:11,980 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:52:11,980 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:52:14,155 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:52:14,300 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:52:14,317 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:52:14,555 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:52:14,563 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:52:14,563 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:52:16,569 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:52:16,570 - utils.logger - WARNING - Google redirect_uri is not HTTPS: http://localhost:8001/auth/google/callback
+2025-09-08 17:52:16,570 - utils.logger - WARNING - Kakao redirect_uri is not HTTPS: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:52:16,570 - utils.logger - WARNING - Naver redirect_uri is not HTTPS: http://localhost:8001/auth/naver/callback
+2025-09-08 17:52:16,570 - utils.logger - INFO - OAuth environment variables configured
+2025-09-08 17:52:16,570 - utils.logger - INFO -   Google redirect: http://localhost:8001/auth/google/callback
+2025-09-08 17:52:16,570 - utils.logger - INFO -   Kakao redirect: http://localhost:8001/auth/kakao/callback
+2025-09-08 17:52:16,570 - utils.logger - INFO -   Naver redirect: http://localhost:8001/auth/naver/callback
+2025-09-08 17:52:18,772 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 17:52:18,928 - services.report_service - INFO - ReportService initialized.
+2025-09-08 17:52:18,951 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 17:52:19,226 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 17:52:19,238 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:52:19,238 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 17:52:19,346 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 17:52:19,346 - utils.env_loader - WARNING - WARNING: JWT_SECRET_KEY is using default value. Please change for security.
+2025-09-08 18:03:45,453 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:03:47,314 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 18:03:47,446 - services.report_service - INFO - ReportService initialized.
+2025-09-08 18:03:47,459 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 18:03:47,748 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:03:47,829 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:03:47,867 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 18:03:47,887 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 18:03:47,906 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 18:03:47,949 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:03:47,950 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:07:44,364 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:07:47,281 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 18:07:47,444 - services.report_service - INFO - ReportService initialized.
+2025-09-08 18:07:47,456 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 18:07:47,707 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:07:47,766 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:07:47,800 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 18:07:47,817 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 18:07:47,833 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 18:07:47,870 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:07:47,870 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:08:03,674 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:08:05,697 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 18:08:05,841 - services.report_service - INFO - ReportService initialized.
+2025-09-08 18:08:05,854 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 18:08:06,140 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:08:06,214 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:08:06,221 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 18:08:06,224 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 18:08:06,226 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 18:08:06,243 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:08:06,244 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:08:09,969 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:08:12,008 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 18:08:12,148 - services.report_service - INFO - ReportService initialized.
+2025-09-08 18:08:12,161 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 18:08:12,446 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:08:12,507 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:08:12,515 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 18:08:12,520 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 18:08:12,524 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 18:08:12,538 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:08:12,538 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:08:12,636 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:08:12,637 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:13:22,005 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:23,792 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 18:13:23,909 - services.report_service - INFO - ReportService initialized.
+2025-09-08 18:13:23,920 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 18:13:24,159 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:24,224 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:24,257 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 18:13:24,274 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 18:13:24,290 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 18:13:24,331 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:13:24,331 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:13:33,314 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:35,250 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 18:13:35,389 - services.report_service - INFO - ReportService initialized.
+2025-09-08 18:13:35,408 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 18:13:35,696 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:35,757 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:35,761 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 18:13:35,762 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 18:13:35,764 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 18:13:35,776 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:13:35,776 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:13:37,917 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:39,981 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 18:13:40,119 - services.report_service - INFO - ReportService initialized.
+2025-09-08 18:13:40,132 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 18:13:40,428 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:40,502 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 18:13:40,517 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 18:13:40,522 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 18:13:40,527 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 18:13:40,551 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:13:40,551 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 18:13:40,672 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 18:13:40,673 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:14:51,706 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:14:54,147 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:14:54,343 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:17:45,334 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:17:45,334 - utils.logger - INFO - 🔧 Auth Routes 모듈 초기화 시작
+2025-09-08 19:17:45,339 - utils.logger - INFO - ✅ Auth Routes 모듈 초기화 완료
+2025-09-08 19:17:47,368 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:17:47,491 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:23:01,714 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:23:01,714 - utils.logger - INFO -  Auth Routes 모듈 초기화 시작
+2025-09-08 19:23:01,718 - utils.logger - INFO -  Auth Routes 모듈 초기화 완료
+2025-09-08 19:23:03,904 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:23:04,099 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:23:04,140 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 19:23:04,901 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:23:05,129 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:23:05,129 - utils.logger - INFO - 🔧 Social Auth 모듈 초기화 시작
+2025-09-08 19:23:05,132 - utils.logger - INFO - 📋 OAuth 환경변수 로드 시작
+2025-09-08 19:23:05,132 - utils.logger - INFO - 🔍 OAuth 환경변수 상세 검증:
+2025-09-08 19:23:05,133 - utils.logger - INFO -   🔵 Google: ✅ 설정완료
+2025-09-08 19:23:05,133 - utils.logger - INFO -     - Client ID: ✅ 있음
+2025-09-08 19:23:05,134 - utils.logger - INFO -     - Client Secret: ✅ 있음
+2025-09-08 19:23:05,134 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 19:23:05,135 - utils.logger - INFO -   🟡 Kakao: ❌ 설정필요
+2025-09-08 19:23:05,135 - utils.logger - INFO -     - Client ID: ❌ 없음
+2025-09-08 19:23:05,136 - utils.logger - INFO -     - Client Secret: ✅ 있음
+2025-09-08 19:23:05,136 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 19:23:05,136 - utils.logger - INFO -   🟢 Naver: ✅ 설정완료
+2025-09-08 19:23:05,137 - utils.logger - INFO -     - Client ID: ✅ 있음
+2025-09-08 19:23:05,138 - utils.logger - INFO -     - Client Secret: ✅ 있음
+2025-09-08 19:23:05,139 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 19:23:05,139 - utils.logger - INFO -   🔑 JWT Secret Key: ✅ 설정됨
+2025-09-08 19:23:05,140 - utils.logger - INFO -   🎯 Streamlit URL: http://localhost:8501
+2025-09-08 19:23:05,141 - utils.logger - INFO - 📊 OAuth 제공업체 활성화 현황: 2/3개 활성화
+2025-09-08 19:23:05,142 - utils.logger - INFO - ✅ 지원 제공업체: google, kakao, naver
+2025-09-08 19:23:05,148 - utils.logger - INFO - ✅ Social Auth 모듈 초기화 완료
+2025-09-08 19:23:05,159 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:23:05,160 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:23:06,868 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:23:06,868 - utils.logger - INFO -  Auth Routes 모듈 초기화 시작
+2025-09-08 19:23:06,871 - utils.logger - INFO -  Auth Routes 모듈 초기화 완료
+2025-09-08 19:23:09,050 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:23:09,209 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:23:09,226 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 19:23:09,527 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:23:09,600 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:23:09,600 - utils.logger - INFO - 🔧 Social Auth 모듈 초기화 시작
+2025-09-08 19:23:09,605 - utils.logger - INFO - 📋 OAuth 환경변수 로드 시작
+2025-09-08 19:23:09,606 - utils.logger - INFO - 🔍 OAuth 환경변수 상세 검증:
+2025-09-08 19:23:09,607 - utils.logger - INFO -   🔵 Google: ✅ 설정완료
+2025-09-08 19:23:09,608 - utils.logger - INFO -     - Client ID: ✅ 있음
+2025-09-08 19:23:09,608 - utils.logger - INFO -     - Client Secret: ✅ 있음
+2025-09-08 19:23:09,609 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 19:23:09,609 - utils.logger - INFO -   🟡 Kakao: ❌ 설정필요
+2025-09-08 19:23:09,610 - utils.logger - INFO -     - Client ID: ❌ 없음
+2025-09-08 19:23:09,611 - utils.logger - INFO -     - Client Secret: ✅ 있음
+2025-09-08 19:23:09,612 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 19:23:09,612 - utils.logger - INFO -   🟢 Naver: ✅ 설정완료
+2025-09-08 19:23:09,613 - utils.logger - INFO -     - Client ID: ✅ 있음
+2025-09-08 19:23:09,614 - utils.logger - INFO -     - Client Secret: ✅ 있음
+2025-09-08 19:23:09,615 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 19:23:09,615 - utils.logger - INFO -   🔑 JWT Secret Key: ✅ 설정됨
+2025-09-08 19:23:09,616 - utils.logger - INFO -   🎯 Streamlit URL: http://localhost:8501
+2025-09-08 19:23:09,616 - utils.logger - INFO - 📊 OAuth 제공업체 활성화 현황: 2/3개 활성화
+2025-09-08 19:23:09,618 - utils.logger - INFO - ✅ 지원 제공업체: google, naver, kakao
+2025-09-08 19:23:09,623 - utils.logger - INFO - ✅ Social Auth 모듈 초기화 완료
+2025-09-08 19:23:09,631 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:23:09,631 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:23:09,963 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:23:09,963 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:23:09,990 - main - INFO - 🚀 Auto ML API 시작
+2025-09-08 19:23:10,747 - main - INFO - ✅ 데이터베이스 초기화 완료
+2025-09-08 19:30:00,224 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:30:00,224 - utils.logger - INFO -  Auth Routes 모듈 초기화 시작
+2025-09-08 19:30:00,229 - utils.logger - INFO -  Auth Routes 모듈 초기화 완료
+2025-09-08 19:30:06,625 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:30:06,976 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:30:07,026 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 19:30:07,961 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:30:08,191 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:30:08,191 - utils.logger - INFO -  Social Auth 모듈 초기화 시작
+2025-09-08 19:30:08,191 - utils.logger - INFO -  OAuth 환경변수 로드 시작
+2025-09-08 19:30:08,192 - utils.logger - INFO -  OAuth 환경변수 상세 검증:
+2025-09-08 19:30:08,192 - utils.logger - INFO -    Google:  설정완료
+2025-09-08 19:30:08,192 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:30:08,192 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:30:08,192 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 19:30:08,192 - utils.logger - INFO -   🟡 Kakao:  설정필요
+2025-09-08 19:30:08,208 - utils.logger - INFO -     - Client ID:  없음
+2025-09-08 19:30:08,208 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:30:08,208 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 19:30:08,208 - utils.logger - INFO -   🟢 Naver:  설정완료
+2025-09-08 19:30:08,209 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:30:08,209 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:30:08,209 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 19:30:08,209 - utils.logger - INFO -    JWT Secret Key:  설정됨
+2025-09-08 19:30:08,209 - utils.logger - INFO -    Streamlit URL: http://localhost:8501
+2025-09-08 19:30:08,209 - utils.logger - INFO -  OAuth 제공업체 활성화 현황: 2/3개 활성화
+2025-09-08 19:30:08,209 - utils.logger - INFO -  지원 제공업체: kakao, google, naver
+2025-09-08 19:30:08,213 - utils.logger - INFO -  Social Auth 모듈 초기화 완료
+2025-09-08 19:30:08,222 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:30:08,222 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:30:10,008 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:30:10,008 - utils.logger - INFO -  Auth Routes 모듈 초기화 시작
+2025-09-08 19:30:10,014 - utils.logger - INFO -  Auth Routes 모듈 초기화 완료
+2025-09-08 19:30:12,080 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:30:12,233 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:30:12,251 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 19:30:12,534 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:30:12,598 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:30:12,598 - utils.logger - INFO -  Social Auth 모듈 초기화 시작
+2025-09-08 19:30:12,598 - utils.logger - INFO -  OAuth 환경변수 로드 시작
+2025-09-08 19:30:12,598 - utils.logger - INFO -  OAuth 환경변수 상세 검증:
+2025-09-08 19:30:12,598 - utils.logger - INFO -    Google:  설정완료
+2025-09-08 19:30:12,599 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:30:12,599 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:30:12,599 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 19:30:12,599 - utils.logger - INFO -   🟡 Kakao:  설정필요
+2025-09-08 19:30:12,616 - utils.logger - INFO -     - Client ID:  없음
+2025-09-08 19:30:12,616 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:30:12,616 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 19:30:12,616 - utils.logger - INFO -   🟢 Naver:  설정완료
+2025-09-08 19:30:12,617 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:30:12,618 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:30:12,618 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 19:30:12,618 - utils.logger - INFO -    JWT Secret Key:  설정됨
+2025-09-08 19:30:12,618 - utils.logger - INFO -    Streamlit URL: http://localhost:8501
+2025-09-08 19:30:12,618 - utils.logger - INFO -  OAuth 제공업체 활성화 현황: 2/3개 활성화
+2025-09-08 19:30:12,618 - utils.logger - INFO -  지원 제공업체: naver, google, kakao
+2025-09-08 19:30:12,624 - utils.logger - INFO -  Social Auth 모듈 초기화 완료
+2025-09-08 19:30:12,635 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:30:12,635 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:30:12,861 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:30:12,861 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:30:12,889 - main - INFO - 🚀 Auto ML API 시작
+2025-09-08 19:30:13,489 - main - INFO - ✅ 데이터베이스 초기화 완료
+2025-09-08 19:38:40,711 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:38:40,711 - utils.logger - INFO -  Auth Routes 모듈 초기화 시작
+2025-09-08 19:38:40,715 - utils.logger - INFO -  Auth Routes 모듈 초기화 완료
+2025-09-08 19:38:42,770 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:38:42,904 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:38:42,917 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 19:38:43,198 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:38:43,257 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:38:43,257 - utils.logger - INFO -  Social Auth 모듈 초기화 시작
+2025-09-08 19:38:43,257 - utils.logger - INFO -  OAuth 환경변수 로드 시작
+2025-09-08 19:38:43,258 - utils.logger - INFO -  OAuth 환경변수 상세 검증:
+2025-09-08 19:38:43,258 - utils.logger - INFO -    Google:  설정완료
+2025-09-08 19:38:43,258 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:38:43,258 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:38:43,259 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 19:38:43,259 - utils.logger - INFO -   🟡 Kakao:  설정필요
+2025-09-08 19:38:43,259 - utils.logger - INFO -     - Client ID:  없음
+2025-09-08 19:38:43,259 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:38:43,259 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 19:38:43,260 - utils.logger - INFO -   🟢 Naver:  설정완료
+2025-09-08 19:38:43,260 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:38:43,260 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:38:43,260 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 19:38:43,260 - utils.logger - INFO -    JWT Secret Key:  설정됨
+2025-09-08 19:38:43,261 - utils.logger - INFO -    Streamlit URL: http://localhost:8501
+2025-09-08 19:38:43,261 - utils.logger - INFO -  OAuth 제공업체 활성화 현황: 2/3개 활성화
+2025-09-08 19:38:43,261 - utils.logger - INFO -  지원 제공업체: kakao, google, naver
+2025-09-08 19:38:43,265 - utils.logger - INFO -  Social Auth 모듈 초기화 완료
+2025-09-08 19:38:43,271 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:38:43,271 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:38:43,296 - main - INFO - Auto ML API 시작
+2025-09-08 19:38:43,737 - main - INFO - 데이터베이스 초기화 완료
+2025-09-08 19:42:56,650 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:42:56,651 - utils.logger - INFO -  Auth Routes 모듈 초기화 시작
+2025-09-08 19:42:56,653 - utils.logger - INFO -  Auth Routes 모듈 초기화 완료
+2025-09-08 19:42:59,059 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:42:59,180 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:42:59,193 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 19:42:59,447 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:42:59,511 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:42:59,511 - utils.logger - INFO -  Social Auth 모듈 초기화 시작
+2025-09-08 19:42:59,511 - utils.logger - INFO -  OAuth 환경변수 로드 시작
+2025-09-08 19:42:59,511 - utils.logger - INFO -  OAuth 환경변수 상세 검증:
+2025-09-08 19:42:59,511 - utils.logger - INFO -    Google:  설정완료
+2025-09-08 19:42:59,511 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:42:59,511 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:42:59,512 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 19:42:59,512 - utils.logger - INFO -   🟡 Kakao:  설정필요
+2025-09-08 19:42:59,514 - utils.logger - INFO -     - Client ID:  없음
+2025-09-08 19:42:59,514 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:42:59,514 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 19:42:59,514 - utils.logger - INFO -   🟢 Naver:  설정완료
+2025-09-08 19:42:59,515 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:42:59,515 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:42:59,515 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 19:42:59,515 - utils.logger - INFO -    JWT Secret Key:  설정됨
+2025-09-08 19:42:59,515 - utils.logger - INFO -    Streamlit URL: http://localhost:8501
+2025-09-08 19:42:59,515 - utils.logger - INFO -  OAuth 제공업체 활성화 현황: 2/3개 활성화
+2025-09-08 19:42:59,515 - utils.logger - INFO -  지원 제공업체: google, kakao, naver
+2025-09-08 19:42:59,519 - utils.logger - INFO -  Social Auth 모듈 초기화 완료
+2025-09-08 19:42:59,525 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:42:59,525 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:43:01,043 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:43:01,043 - utils.logger - INFO -  Auth Routes 모듈 초기화 시작
+2025-09-08 19:43:01,046 - utils.logger - INFO -  Auth Routes 모듈 초기화 완료
+2025-09-08 19:43:02,964 - utils.logger - INFO - AutoMLService initialized.
+2025-09-08 19:43:03,113 - services.report_service - INFO - ReportService initialized.
+2025-09-08 19:43:03,128 - services.rag_service - INFO - RAGService initialized.
+2025-09-08 19:43:03,412 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:43:03,468 - utils.logger - INFO - UserLogService initialized.
+2025-09-08 19:43:03,469 - utils.logger - INFO -  Social Auth 모듈 초기화 시작
+2025-09-08 19:43:03,469 - utils.logger - INFO -  OAuth 환경변수 로드 시작
+2025-09-08 19:43:03,469 - utils.logger - INFO -  OAuth 환경변수 상세 검증:
+2025-09-08 19:43:03,469 - utils.logger - INFO -    Google:  설정완료
+2025-09-08 19:43:03,469 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:43:03,469 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:43:03,469 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/google/callback
+2025-09-08 19:43:03,469 - utils.logger - INFO -   🟡 Kakao:  설정필요
+2025-09-08 19:43:03,472 - utils.logger - INFO -     - Client ID:  없음
+2025-09-08 19:43:03,473 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:43:03,473 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/kakao/callback
+2025-09-08 19:43:03,473 - utils.logger - INFO -   🟢 Naver:  설정완료
+2025-09-08 19:43:03,474 - utils.logger - INFO -     - Client ID:  있음
+2025-09-08 19:43:03,474 - utils.logger - INFO -     - Client Secret:  있음
+2025-09-08 19:43:03,474 - utils.logger - INFO -     - Redirect URI: http://localhost:8001/auth/naver/callback
+2025-09-08 19:43:03,474 - utils.logger - INFO -    JWT Secret Key:  설정됨
+2025-09-08 19:43:03,474 - utils.logger - INFO -    Streamlit URL: http://localhost:8501
+2025-09-08 19:43:03,474 - utils.logger - INFO -  OAuth 제공업체 활성화 현황: 2/3개 활성화
+2025-09-08 19:43:03,474 - utils.logger - INFO -  지원 제공업체: naver, google, kakao
+2025-09-08 19:43:03,478 - utils.logger - INFO -  Social Auth 모듈 초기화 완료
+2025-09-08 19:43:03,484 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:43:03,484 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:43:03,581 - utils.env_loader - INFO - Local environment variables loaded: .env.local
+2025-09-08 19:43:03,582 - utils.env_loader - INFO - Environment variable validation completed
+2025-09-08 19:43:03,602 - main - INFO - Auto ML API 시작
+2025-09-08 19:43:03,998 - main - INFO - 데이터베이스 초기화 완료

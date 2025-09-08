@@ -12,6 +12,7 @@ router = APIRouter()
 # Initialize AutoMLService
 auto_ml_service = AutoMLService()
 
+@router.post("/upload")
 @router.post("/upload-csv/")
 async def upload_csv(file: UploadFile = File(...), target_column: Optional[str] = Form(None)):
     """

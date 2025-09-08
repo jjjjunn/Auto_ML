@@ -1,16 +1,21 @@
-from pydantic_settings import BaseSettings, SettingsConfigDict
+"""
+환경 설정 관리
+소셜 로그인은 oauth/social_auth.py에서 직접 관리됩니다.
+"""
+
 import os
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
     # Application Environment
-    APP_ENV: str = "local"  # local, development, production, cloud
+    APP_ENV: str = "local"
     
     # Database Configuration
     DATABASE_URL: str = "sqlite:///./automl.db"
     
-    # Security Keys (MUST change in production)
+    # Security Keys
     JWT_SECRET_KEY: str = "your-jwt-secret-key-here-please-change-in-production"
     SESSION_SECRET_KEY: str = "your-session-secret-key-here-please-change-in-production"
     JWT_ALGORITHM: str = "HS256"
@@ -34,21 +39,6 @@ class Settings(BaseSettings):
     # Celery and Redis Configuration
     CELERY_BROKER_URL: str = "redis://localhost:6379/0"
     CELERY_RESULT_BACKEND: str = "redis://localhost:6379/0"
-    
-    # Social Login - Google
-    GOOGLE_CLIENT_ID: str = ""
-    GOOGLE_CLIENT_SECRET: str = ""
-    GOOGLE_REDIRECT_URI: str = "http://localhost:8001/auth/google/callback"
-    
-    # Social Login - Kakao
-    KAKAO_CLIENT_ID: str = ""
-    KAKAO_CLIENT_SECRET: str = ""
-    KAKAO_REDIRECT_URI: str = "http://localhost:8001/auth/kakao/callback"
-    
-    # Social Login - Naver
-    NAVER_CLIENT_ID: str = ""
-    NAVER_CLIENT_SECRET: str = ""
-    NAVER_REDIRECT_URI: str = "http://localhost:8001/auth/naver/callback"
     
     # OpenAI API (Optional)
     OPENAI_API_KEY: str = ""
