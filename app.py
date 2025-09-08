@@ -138,44 +138,127 @@ def login_page():
         st.info("백엔드 서버 실행 방법:\n```bash\ncd backend\npython main.py\n```")
         return
     
+    # 프로그램 전반적인 설명 (머신러닝 초보자를 위해)
     st.markdown("""
-    <div class="login-container">
-        <h2 style="text-align: center; margin-bottom: 2rem;">🔐 로그인</h2>
-        <p style="text-align: center; color: #666; margin-bottom: 2rem;">
-            소셜 계정으로 간편하게 로그인하세요
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                padding: 2rem; border-radius: 1rem; color: white; margin-bottom: 2rem;">
+        <h2 style="text-align: center; margin-bottom: 1rem;">✨ 누구나 쉽게 사용하는 AI 머신러닝</h2>
+        <p style="text-align: center; font-size: 1.1rem; margin-bottom: 0;">
+            코딩 없이도 데이터만 업로드하면 AI가 자동으로 최적의 모델을 찾아드려요!
         </p>
+    </div>
     """, unsafe_allow_html=True)
     
+    # 주요 기능 소개
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        if st.button("🔵 Google 로그인", key="google_login"):
-            st.markdown(f'<a href="{API_BASE_URL}/auth/google" target="_self" class="social-button google-btn">Google로 계속하기</a>', unsafe_allow_html=True)
+        st.markdown("""
+        <div style="background: white; padding: 1.5rem; border-radius: 0.8rem; 
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; height: 200px;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
+            <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">간편한 데이터 업로드</h3>
+            <p style="color: #7f8c8d; font-size: 0.9rem;">
+                Excel이나 CSV 파일만 드래그 앤 드롭하면 끝!<br>
+                복잡한 데이터 전처리도 자동으로 처리해요
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
     
     with col2:
-        if st.button("🟡 Kakao 로그인", key="kakao_login"):
-            st.markdown(f'<a href="{API_BASE_URL}/auth/kakao" target="_self" class="social-button kakao-btn">Kakao로 계속하기</a>', unsafe_allow_html=True)
+        st.markdown("""
+        <div style="background: white; padding: 1.5rem; border-radius: 0.8rem; 
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; height: 200px;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🤖</div>
+            <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">자동 모델 학습</h3>
+            <p style="color: #7f8c8d; font-size: 0.9rem;">
+                AI가 여러 알고리즘을 자동으로 테스트하고<br>
+                가장 성능이 좋은 모델을 추천해드려요
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
     
     with col3:
-        if st.button("🟢 Naver 로그인", key="naver_login"):
-            st.markdown(f'<a href="{API_BASE_URL}/auth/naver" target="_self" class="social-button naver-btn">Naver로 계속하기</a>', unsafe_allow_html=True)
+        st.markdown("""
+        <div style="background: white; padding: 1.5rem; border-radius: 0.8rem; 
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; height: 200px;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">💬</div>
+            <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">AI 챗봇 상담</h3>
+            <p style="color: #7f8c8d; font-size: 0.9rem;">
+                모르는 것이 있으면 AI에게 바로 물어보세요!<br>
+                데이터 분석부터 결과 해석까지 도움받아요
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
     
-    st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown("<br><br><br>", unsafe_allow_html=True)
     
-    # 로그인 없이 체험하기 (제한된 기능)
-    st.markdown("---")
-    st.markdown("### 🎯 체험하기 (로그인 없음)")
-    st.info("⚠️ 로그인하지 않으면 파일 저장 및 모델 학습 기록이 보관되지 않습니다.")
+    # 이런 분들에게 추천
+    st.markdown("""
+    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 0.8rem; border-left: 4px solid #3498db; margin-top: 2rem;">
+        <h3 style="color: #2c3e50; margin-top: 0;">🎯 이런 분들에게 추천해요!</h3>
+        <ul style="color: #34495e; line-height: 1.8;">
+            <li><strong>소상공인</strong>: 매출 예측, 고객 분석으로 비즈니스 인사이트 얻기</li>
+            <li><strong>마케터</strong>: 고객 세분화, 캠페인 효과 예측으로 마케팅 전략 수립</li>
+            <li><strong>학생·연구자</strong>: 논문 데이터 분석, 연구 프로젝트에 AI 모델 활용</li>
+            <li><strong>일반 사용자</strong>: 개인 데이터(가계부, 운동기록 등) 패턴 분석</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
     
-    if st.button("🔓 로그인 없이 체험하기", key="guest_mode"):
-        st.session_state.authenticated = True
-        st.session_state.user_data = {
-            "id": "guest", 
-            "name": "게스트", 
-            "email": "guest@example.com",
-            "provider": "guest"
-        }
-        st.rerun()
+    st.markdown("<br>", unsafe_allow_html=True)
+    
+    # 로그인 섹션 - 가운데 정렬
+    st.markdown("""
+    <div style="max-width: 500px; margin: 2rem auto; padding: 2rem; 
+                background-color: #ffffff; border-radius: 1rem; 
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center; margin-bottom: 1rem; color: #2c3e50;">🔐 시작하기</h2>
+        <p style="text-align: center; color: #7f8c8d; margin-bottom: 2rem;">
+            소셜 계정으로 3초만에 시작하세요
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # 로그인 버튼들을 가운데 정렬
+    col_left, col_center, col_right = st.columns([1, 2, 1])
+    
+    with col_center:
+        if st.button("🔵 Google로 시작하기", key="google_login", use_container_width=True):
+            st.markdown(f'<meta http-equiv="refresh" content="0; url={API_BASE_URL}/auth/google">', unsafe_allow_html=True)
+        
+        if st.button("🟡 Kakao로 시작하기", key="kakao_login", use_container_width=True):
+            st.markdown(f'<meta http-equiv="refresh" content="0; url={API_BASE_URL}/auth/kakao">', unsafe_allow_html=True)
+        
+        if st.button("🟢 Naver로 시작하기", key="naver_login", use_container_width=True):
+            st.markdown(f'<meta http-equiv="refresh" content="0; url={API_BASE_URL}/auth/naver">', unsafe_allow_html=True)
+    
+    # 로그인 없이 체험하기 (제한된 기능) - 가운데 정렬
+    st.markdown("<br><br>", unsafe_allow_html=True)
+    
+    col_left2, col_center2, col_right2 = st.columns([1, 2, 1])
+    
+    with col_center2:
+        st.markdown("""
+        <div style="background: #fff3cd; padding: 1.5rem; border-radius: 0.8rem; 
+                    border: 1px solid #ffeaa7; text-align: center; margin-bottom: 1rem;">
+            <h3 style="color: #856404; margin-top: 0; margin-bottom: 1rem;">🎯 먼저 체험해보고 싶으신가요?</h3>
+            <p style="color: #856404; margin-bottom: 1rem; line-height: 1.6;">
+                로그인 없이도 모든 기능을 체험할 수 있어요!<br>
+                <small>⚠️ 단, 파일과 학습 기록은 저장되지 않습니다</small>
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        if st.button("🔓 로그인 없이 체험하기", key="guest_mode", use_container_width=True):
+            st.session_state.authenticated = True
+            st.session_state.user_data = {
+                "id": "guest", 
+                "name": "게스트", 
+                "email": "guest@example.com",
+                "provider": "guest"
+            }
+            st.rerun()
 
 def data_upload_section():
     """데이터 업로드 섹션"""
